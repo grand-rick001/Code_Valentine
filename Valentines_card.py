@@ -56,6 +56,23 @@ def main():
     txt1.setTextColor(color_rgb(0,255,100))
     txt1.draw(wndw)
 
+    # Interact with the user
+    inp =  Entry(Point(150,100), 20)
+    inp.draw(wndw)
+    txt2 = Text(Point(600,100), "")
+    txt2.setFace("courier")
+    txt2.setTextColor(color_rgb(229,84,81))
+    txt2.draw(wndw)
+
+    txt3 = Text(Point(150,80), "Add A Message!")
+    txt3.setFace("courier")
+    txt3.setTextColor(color_rgb(0,255,100))
+    txt3.draw(wndw)
+
+    while True:
+        txt2.setText(inp.getText())
+
+
     wndw.getMouse()
     wndw.close()
 
