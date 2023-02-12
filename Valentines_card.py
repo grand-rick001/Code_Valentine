@@ -72,7 +72,6 @@ def main():
     while True:
         txt2.setText(inp.getText())
 
-
     wndw.getMouse()
     wndw.close()
 
