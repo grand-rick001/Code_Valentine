@@ -1,0 +1,10 @@
+div#home {
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    
+}
+
+#noButton {
+    position: absolute;
+}
