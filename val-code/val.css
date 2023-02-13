@@ -1,0 +1,26 @@
+div {
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+div#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    padding: 15px;
+}
+
+#noButton {
+    position: absolute;
+    left: 770px;
+}
+
+#yesButton {
+    margin-left: -45px;
+}
