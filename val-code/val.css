@@ -1,3 +1,8 @@
+body {
+    background-color: #faaca8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 div {
     text-align: center;
     vertical-align: middle;
@@ -19,8 +24,10 @@ div#buttons {
 #noButton {
     position: absolute;
     left: 770px;
+    padding: 7px;
 }
 
 #yesButton {
     margin-left: -45px;
+    padding: 7px;
 }
