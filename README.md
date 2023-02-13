@@ -1,5 +1,8 @@
 # Code_Valentine
 Code bank partnered with Power learn project
+
+![instructions](instruction.jpg)
+
 Guidelines to submit your code to the repository:
 
 1. Fork the repository: Go to the public repository that you would like to contribute to (Use the URL provided our socials) and click on the "Fork" button. 
